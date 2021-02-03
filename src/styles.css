@@ -1,0 +1,24 @@
+.App {
+  width: 500px;
+  height: 500px;
+  margin: 50px 0 0 50px;
+  font-family: sans-serif;
+  text-align: center;
+  border: solid 5px #555555;
+  position: relative;
+}
+
+.Block1 {
+  width: 100px;
+  height: 100px;
+  border: solid 5px #555555;
+  margin: 0px;
+  position: absolute;
+}
+
+.Block1 p {
+  user-select: none; /* CSS3 */
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Safari、Chromeなど */
+  -ms-user-select: none; /* IE10かららしい */
+}
