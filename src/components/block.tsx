@@ -28,13 +28,6 @@ export const Block1 = ({
     const deffTop = event.nativeEvent.offsetY - mouseDownPosition.y;
     const deffLeft = event.nativeEvent.offsetX - mouseDownPosition.x;
     if (isGripping) {
-      // console.log(
-      //   `[MovePosition] X: ${
-      //     event.nativeEvent.offsetX - mouseDownPosition.x
-      //   } Y: ${event.nativeEvent.offsetY - mouseDownPosition.y}`
-      // );
-      //console.log(event.nativeEvent.offsetY - mouseDownPosition.y)
-
       setStyle({
         ...style,
         top: style.top + deffTop,
